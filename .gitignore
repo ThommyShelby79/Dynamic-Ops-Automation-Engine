@@ -1,0 +1,54 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+B2B_Client_Onboarding_Automator/.env
+Ops_Automation_Hub/.env
+
+# Config files
+config/tenants/*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+*.log
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore
+
+# Git/CI
+.git
+.github
+.gitlab-ci.yml
+
+# Documentation
+*.md
+README
+LICENSE
+.env
+**/.env
